@@ -1,5 +1,5 @@
 
-## This is a simple Chrome Extension that checks  
+## This is a simple Chrome Extension that checks for Enhanced Conversions   
 
 This Chrome extension is designed to monitor and inspect network requests related to Google’s ads Enhanced Conversions. It listens for requets going to Google e.g.  "googleadservices.com/pagead/conversion/" or "google.com/pagead/1p-conversion/".
 
