@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "AdNetwork Parameter Detector",
+  "version": "1.1",
+  "description": "Detect network requests to googleadservices.com or google.com that contain an 'em' parameter starting with 'tv.1~em'.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "activeTab",
+    "declarativeNetRequest",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*.googleadservices.com/*",
+    "*://*.google.com/*"
+  ],
+  "devtools_page": "devtools.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
