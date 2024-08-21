@@ -11,6 +11,8 @@ You can use this extension to verify that enhanced conversion tracking is functi
 
 Additionally, it serves as a monitoring tool to understand which websites are sharing your information with Google.
 
+[Learn more about setting up and validating Enhanced Conversions](https://support.google.com/google-ads/answer/13262500#zippy=%2Cset-up-standard-automatic-enhanced-conversions%2Cfind-enhanced-conversions-variables%2Cenable-enhanced-conversions-in-google-tag-manager%2Cafter-hours-review-the-diagnostics-report-to-confirm-your-implementation%2Cvalidate-your-implementation-using-chrome-developer-tools:~:text=Validate%20your-,implementation,-using%20Chrome%20Developer)
+
 ## How to Add the Chrome Extension from Your Local Machine
 
 1. Download the extension from this Gibhub Repo
@@ -24,3 +26,5 @@ Additionally, it serves as a monitoring tool to understand which websites are sh
 5. Enable on the Extensions page.
 
 6. Navigate to a website where enhanced conversion is enabled.
+
+![Screenshot of the Extension](https://github.com/dondv/g-enhanced-conversions-chrome/blob/main/images/screenshot.png)
